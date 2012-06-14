@@ -1,5 +1,7 @@
 # Simsr
 
+![Travis-CI](https://secure.travis-ci.org/wursttheke/simsr.png "Travis-CI")
+
 TODO: Write a gem description
 
 ## Installation
