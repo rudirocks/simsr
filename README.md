@@ -5,7 +5,7 @@
   [1]: http://travis-ci.org/#!/wursttheke/simsr
   [2]: https://secure.travis-ci.org/wursttheke/simsr.png
 
-TODO: Write a gem description
+Send text messages through proprietary SMS Gateway Services via HTTP-Get-Requests
 
 ## Installation
 
