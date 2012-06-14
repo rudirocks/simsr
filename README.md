@@ -11,15 +11,11 @@ Send text messages through proprietary SMS Gateway Services via HTTP-Get-Request
 
 Add this line to your application's Gemfile:
 
-    gem 'simsr'
+    gem 'simsr', :git => 'git://github.com/wursttheke/simsr.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install simsr
 
 ## Usage
 
