@@ -33,3 +33,180 @@
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mSQL (4.6ms)[0m  [1mINSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)[0m  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-15 00:09:37 +0200], ["to", "12345"]]
   [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)[0m  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-15 11:25:10 +0200], ["to", "12345"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)[0m  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:33:26 +0200], ["to", "12345"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.7ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:34:20 +0200], ["to", "12345"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:34:49 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:35:47 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.6ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:36:37 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:37:59 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.4ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:38:49 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.3ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.4ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:40:22 +0200], ["to", "12345"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:40:44 +0200], ["to", "12345"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "3637"], ["telephone_verification_code_sent_at", 2012-06-18 10:40:44 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:41:07 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "0007"], ["telephone_verification_code_sent_at", 2012-06-18 10:41:07 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:42:33 +0200], ["to", "12345"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "1654"], ["telephone_verification_code_sent_at", 2012-06-18 10:42:33 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:43:46 +0200], ["to", "12345"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "8258"], ["telephone_verification_code_sent_at", 2012-06-18 10:43:46 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:44:18 +0200], ["to", "12345"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "6990"], ["telephone_verification_code_sent_at", 2012-06-18 10:44:19 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "contact_infos" SET "telephone_verified_at" = '2012-06-18 08:44:19.021096' WHERE "contact_infos"."id" = 1
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM contact_infos
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM contact_infos
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:55:40 +0200], ["to", "12345"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "5723"], ["telephone_verification_code_sent_at", 2012-06-18 10:55:40 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)  [["telephone", "12345"], ["telephone_verification_code", "3534"], ["telephone_verification_code_sent_at", 2012-06-18 10:55:40 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "6222"], ["telephone_verification_code_sent_at", 2012-06-18 10:55:40 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "contact_infos" SET "telephone_verified_at" = '2012-06-18 08:55:40.592787' WHERE "contact_infos"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "1075"], ["telephone_verification_code_sent_at", 2012-06-18 10:55:40 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (527.6ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (2.7ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.4ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:56:10 +0200], ["to", "12345"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "2377"], ["telephone_verification_code_sent_at", 2012-06-18 10:56:10 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)  [["telephone", "12345"], ["telephone_verification_code", "2240"], ["telephone_verification_code_sent_at", 2012-06-18 10:56:10 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "4801"], ["telephone_verification_code_sent_at", 2012-06-18 10:56:10 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "contact_infos" SET "telephone_verified_at" = '2012-06-18 08:56:10.709847' WHERE "contact_infos"."id" = 3
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "3359"], ["telephone_verification_code_sent_at", 2012-06-18 10:56:10 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:58:14 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "8854"], ["telephone_verification_code_sent_at", 2012-06-18 10:58:14 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)  [["telephone", "12345"], ["telephone_verification_code", "0881"], ["telephone_verification_code_sent_at", 2012-06-18 10:58:14 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "0393"], ["telephone_verification_code_sent_at", 2012-06-18 10:58:14 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)  [["telephone", "12345"], ["telephone_verification_code", "4092"], ["telephone_verification_code_sent_at", 2012-06-18 10:58:14 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM short_messages[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM contact_infos
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  INSERT INTO "short_messages" ("message", "response", "sent_at", "to") VALUES (?, ?, ?, ?)  [["message", "Hello World"], ["response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["sent_at", 2012-06-18 10:59:21 +0200], ["to", "12345"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "6382"], ["telephone_verification_code_sent_at", 2012-06-18 10:59:21 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)  [["telephone", "12345"], ["telephone_verification_code", "2082"], ["telephone_verification_code_sent_at", 2012-06-18 10:59:21 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "5081"], ["telephone_verification_code_sent_at", 2012-06-18 10:59:21 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "contact_infos" SET "telephone_verified_at" = '2012-06-18 08:59:21.707753' WHERE "contact_infos"."id" = 3
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "contact_infos" ("telephone", "telephone_verification_code", "telephone_verification_code_sent_at", "telephone_verification_response", "telephone_verified_at") VALUES (?, ?, ?, ?, ?)[0m  [["telephone", "12345"], ["telephone_verification_code", "9580"], ["telephone_verification_code_sent_at", 2012-06-18 10:59:21 +0200], ["telephone_verification_response", {:ok=>true, :code=>"100", :message=>"SMS has been sent through Dummy Provider."}], ["telephone_verified_at", nil]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction

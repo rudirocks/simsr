@@ -9,6 +9,7 @@ require 'simsr/providers/mobilant'
 require 'simsr/providers/sms77'
 require 'simsr/providers/dummy'
 require 'simsr/acts_as_sms/acts_as_sms'
+require 'simsr/verifies_phone_number/verifies_phone_number'
 
 module Simsr
   def self.deliver!(*options)
@@ -110,4 +111,8 @@ end
 $LOAD_PATH.shift
 
 ActiveRecord::Base.extend Simsr::ActsAsSMS
-ActiveRecord::Base.class_eval { include Simsr::ActsAsSMS }
+ActiveRecord::Base.extend Simsr::VerifiesPhoneNumber
+ActiveRecord::Base.class_eval { 
+  include Simsr::ActsAsSMS 
+  include Simsr::VerifiesPhoneNumber 
+}

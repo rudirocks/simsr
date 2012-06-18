@@ -75,7 +75,7 @@ else
 end
 
 def clean_database!
-  models = [ShortMessage]
+  models = [ShortMessage, ContactInfo]
   models.each do |model|
     ActiveRecord::Base.connection.execute "DELETE FROM #{model.table_name}"
   end
