@@ -26,7 +26,7 @@ module Simsr
         define_method "get_new_code" do
           code = ""
           4.times do 
-            code += rand(0..9).to_s
+            code += rand(10).to_s
           end
           code
         end
