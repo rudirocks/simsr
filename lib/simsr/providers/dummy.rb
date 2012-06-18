@@ -3,7 +3,6 @@ module Simsr
   module Providers
     module Dummy
       def self.request(options)
-        puts "Dummy Request"
         {:ok => true, :code => "100", :message => possible_responses["100"]}
       end
 
