@@ -42,5 +42,19 @@ describe "VerifiesPhoneNumber" do
     @contact.save
     @contact.telephone_verified_at.should eq(nil)
   end
+  
+  it "should unverify and reverify when phone number has changed" do
+    @contact.telephone_verification = @contact.telephone_verification_code
+    @contact.save
+    @contact.telephone_verified_at.should_not eq(nil)
+
+    @contact.telephone = "54321"
+    @contact.save
+    @contact.telephone_verified_at.should eq(nil)
+
+    @contact.telephone = "12345"
+    @contact.save
+    @contact.telephone_verified_at.should_not eq(nil)
+  end
 
 end

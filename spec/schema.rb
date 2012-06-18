@@ -12,5 +12,6 @@ ActiveRecord::Schema.define :version => 0 do
     t.column :telephone_verification_code_sent_at, :datetime
     t.column :telephone_verification_response, :text
     t.column :telephone_verified_at, :datetime
+    t.column :telephone_verified_hash, :string
   end
 end
