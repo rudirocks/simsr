@@ -30,6 +30,8 @@ module Simsr
         # protect the hash column
         attr_protected "#{sms_options[:field]}_verified_hash"
 
+        validate "#{sms_options[:field]}_verification_correct"
+
         # The order is important!!!
         before_save "unverify_#{sms_options[:field]}", "reverify_#{sms_options[:field]}"
 
@@ -80,8 +82,17 @@ module Simsr
           end
         end
         
+        define_method "#{sms_options[:field]}_verification_correct" do
+          if self.instance_variable_get("@#{sms_options[:field]}_verification").present?
+            if self.instance_variable_get("@#{sms_options[:field]}_verification") != self.send("#{sms_options[:field]}_verification_code")
+              errors.add(:base, I18n.t("simsr.errors.verification_code_invalid", :default => "The Verification Code is invalid"))
+            end
+          end
+        end
+        
         define_method "#{sms_options[:field]}_verification=" do |a_code|
-          send("verify_#{sms_options[:field]}", a_code)
+          self.instance_variable_set("@#{sms_options[:field]}_verification", a_code.strip)
+          send("verify_#{sms_options[:field]}", a_code.strip)
         end
         
       end

@@ -34,12 +34,14 @@ describe "VerifiesPhoneNumber" do
   it "should set verified_at when correct code is given" do
     @contact.telephone_verification = @contact.telephone_verification_code
     @contact.save
+    @contact.errors.size.should eq(0)
     @contact.telephone_verified_at.should_not eq(nil)
   end
 
   it "should not set verified_at when incorrect code is given" do
     @contact.telephone_verification = @contact.telephone_verification_code + "x"
     @contact.save
+    @contact.errors.size.should eq(1)
     @contact.telephone_verified_at.should eq(nil)
   end
   
