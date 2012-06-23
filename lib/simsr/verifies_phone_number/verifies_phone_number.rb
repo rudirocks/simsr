@@ -94,6 +94,10 @@ module Simsr
           self.instance_variable_set("@#{sms_options[:field]}_verification", a_code.strip)
           send("verify_#{sms_options[:field]}", a_code.strip)
         end
+
+        define_method "#{sms_options[:field]}_verified?" do
+          send("#{sms_options[:field]}_verified_at") != nil
+        end
         
       end
 
