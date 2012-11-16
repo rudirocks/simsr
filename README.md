@@ -11,7 +11,7 @@ Send text messages through proprietary SMS Gateway Services via HTTP-Get-Request
 
 Add this line to your application's Gemfile:
 
-    gem 'simsr', :git => 'git://github.com/wursttheke/simsr.git'
+    gem 'simsr', :git => 'git://github.com/rudirocks/simsr.git'
 
 And then execute:
 
@@ -21,10 +21,3 @@ And then execute:
 
 TODO: Write usage instructions here
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
