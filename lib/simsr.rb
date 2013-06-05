@@ -22,7 +22,7 @@ module Simsr
     
     validate_options!(options)
     
-    puts "Sending text message '#{options[:message]}' to '#{options[:to]}' via #{options[:provider].to_s.classify}..."
+    #puts "Sending text message '#{options[:message]}' to '#{options[:to]}' via #{options[:provider].to_s.classify}..."
     do_request(options)
   end
 
@@ -70,7 +70,7 @@ module Simsr
   		end
     
       status = provider.parse_response(response)
-      puts (status[:ok] ? "Message sent." : "Error: Message could not be sent.")
+      #puts (status[:ok] ? "Message sent." : "Error: Message could not be sent.")
       status
     end
   end
