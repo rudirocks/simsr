@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Simsr::VERSION
   
-  gem.add_runtime_dependency 'rails', '~> 3.2'
+  gem.add_runtime_dependency 'rails', '>= 3.2'
   gem.add_development_dependency 'rspec', '~> 2.6'
   gem.add_development_dependency 'sqlite3'
   gem.add_development_dependency 'mysql2', '~> 0.3.7'
