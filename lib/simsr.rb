@@ -108,7 +108,7 @@ module Simsr
 end
 
 
-$LOAD_PATH.shift
+# $LOAD_PATH.shift
 
 ActiveRecord::Base.extend Simsr::ActsAsSMS
 ActiveRecord::Base.extend Simsr::VerifiesPhoneNumber

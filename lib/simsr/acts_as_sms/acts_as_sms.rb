@@ -58,6 +58,8 @@ module Simsr
     		validates_presence_of :message, :to
     		validates_length_of :message, :maximum => 160
 
+        serialize :response
+
         define_method "can_be_sent" do
     			if sent_at
     				errors.add(:base, "SMS has already been sent") if sent_at
@@ -81,7 +83,7 @@ module Simsr
     			if valid? == false || can_be_sent == false
     				false
     			else
-    			  self.response = Simsr.deliver!(sms_options.merge(:to => to, :message => message))
+    			  self.response = Simsr.deliver!(sms_options.merge({to: to, message: message}))
           
             if (self.response[:ok])
               self.sent_at = Time.now
@@ -90,6 +92,7 @@ module Simsr
               errors.add :base, "API-Error, Message could not be sent (Errorcode: #{self.response[:code]})"
               false
             end
+          
     			end
         end
       end
